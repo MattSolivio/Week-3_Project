@@ -1,0 +1,8 @@
+#Innterval Code Functions
+#Project Week 3
+var nextafter = require('nextafter')
+
+var x = [nextafter(0, Infinity), nextafter(1, -Infinity)]     // open interval
+var y = [nextafter(0, Infinity), 1]                           // interval closed on the left 
+var z = [0, nextafter(1, -Infinity)]                          // interval closed on the right
+var w = [0, 1]                                                // closed interval
